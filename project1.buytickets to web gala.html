@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>
+    ticket to gala
+    </title>
+    </head>
+<body>
+    <style type = "text/css">
+        #page-content{
+            margin:0 auto;
+            
+            width:1000px;
+            
+        }
+    
+        form h1{
+            color:blue;
+            font-size: 40px;
+        }
+        
+        form p{
+            color:darkblue;
+            font-size:20px;
+        }
+    
+        label + input{
+            display:block;
+            clear:both;
+            
+        }
+        
+        * + fieldset{
+            margin: 5em 0;
+        }
+        
+        label ~ input{
+            display:block;
+        }
+    </style>
+    
+    
+    <div id="page-content">
+    <form method = "get" action = "/processor">
+    <h1>Buy Tickets to the Web Developer Gala</h1>
+    <p>Tickets are &#36;10 each.Dinner packages are an extra &#36;5.All fiels are required.</p>
+    <fieldset>
+        <legend>Tickets and Add-ons</legend>
+        <p>
+        <label for="quantity">Number of Tickets</label>
+            <span class = "help">Limit 8</span>
+            <input type = "number" value= "1" name="quantity" id="quantity" step="1" min="1" max="8"> </p>
+        <p>
+        <label for= "quantity">Number of Tickets</label>
+           <span class="help">server2</span> 
+            <input type = "number" value ="1" name = "quantity" id = "quantity" step = "1" min="1" max="8">
+        </p>
+         </fieldset>
+        <fieldset>
+        <legend>Payment</legend>
+        <p>
+            <label for="quantity">Credit card number</label>
+            <span class="help">No spaces or dashes,please</span>
+            <input type="text" placeholder="3720000000000008" name="quantity" id="ccn" step="1" maxlength="16" size="16"></p>
+        <p>
+            <label for = "quantity">Expiration date</label>
+            <span><abbr title="Two-Digit">DD</abbr>/<ABBR TITLE="Two-Digit">MM</ABBR>/<abbr title="Four-Digits">YYYY</abbr></span>
+            <input type="text" id="expiratiion" name="expiration" placeholder="01/2018" maxlength="10" size="10">
+            </p>
+        </fieldset>
+        <fieldset>
+        <legend>Bing Address</legend>
+            <p>
+        <label for="quantity">Name</label>
+            <input type="text" placeholder="ex: John q.Public" size="40"></p>
+            <p><label for="quantity">Street Address</label>
+            <input type="text" placeholder="ex:12345 Main Street,Apt 23"></p>
+            <p><label>City</label>
+            <input type="text" placeholder="ex:Anytown"></p>
+           
+        </fieldset>
+        
+         <button type="submit">Buy Tickets</button>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+        </div>
+    </body>
+</html>
